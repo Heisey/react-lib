@@ -1,27 +1,21 @@
-
-name: Releases
+name: Publish to NPM
 on:
-  push:
-    branches:
-      - main
-
+  release:
+    types: [created]
 jobs:
-  changelog:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Conventional Changelog Action
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@latest
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          github-token: ${{ secrets.GITHUB }}
-          version-file: './package.json,./package-lock.json'
-      - name: create release
-        uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+          node-version: '16'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Install dependencies and build 🔧
+        run: npm ci
+      - name: Publish package on NPM 📦
+        run: npm publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB }}
-        with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM }}
