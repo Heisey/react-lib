@@ -1,10 +1,5 @@
 name: Node.js Package to npm and gpr
 
-# trigger when a release is created
-# on:
-#   release:
-#     types: [created]
-
 jobs:
   build:
     runs-on: ubuntu-latest
