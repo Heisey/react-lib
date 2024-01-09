@@ -1,10 +1,10 @@
 {
-  "name": "componentlib",
+  "name": "@heisey/componentlib",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@Heisey"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "dev": "vite",
