@@ -1,11 +1,17 @@
 
 import * as React from 'react'
 
-const Button: React.FC = () => {
+import * as I from './Props'
+import * as Styles from './styles'
+
+const Button: React.FC<I.Button> = (props) => {
 
   return (
-    <div>puppy button 2</div>
+    <Styles.Button>
+      {props.children}
+    </Styles.Button>
   )
 }
 
 export const Component = Button
+
