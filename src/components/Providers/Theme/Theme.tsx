@@ -8,7 +8,7 @@ const Theme: React.FC<I.Theme> = (props) => {
 
   return (
     <Styled.ThemeProvider theme={props.theme}>
-
+      {props.children}
     </Styled.ThemeProvider>
   )
 }
@@ -16,3 +16,5 @@ const Theme: React.FC<I.Theme> = (props) => {
 Theme.defaultProps = {
   theme: {}
 }
+
+export const Component = Theme
