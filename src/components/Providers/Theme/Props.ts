@@ -1,5 +1,8 @@
 
 import * as React from 'react'
+
+import * as Core from 'core'
+
 export interface Theme extends React.PropsWithChildren {
-  theme?: any
+  theme?: Core.I.Theme
 }

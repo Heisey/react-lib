@@ -1,5 +1,4 @@
 
-import * as React from 'react'
 import type { Preview } from "@storybook/react"
 import { withThemeFromJSXProvider } from '@storybook/addon-themes'
 
@@ -16,14 +15,7 @@ export const preview: Preview = {
         date: /Date$/i,
       },
     },
-  },
-  // decorators: [
-  //   (Story) => (
-  //     <Providers.Theme.Component theme={Core.config.themes.dark}>
-  //       <Story />
-  //     </Providers.Theme.Component>
-  //   )
-  // ]
+  }
 };
 
 export const decorators = [
