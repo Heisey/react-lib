@@ -1,11 +1,11 @@
 {
   "name": "@heisey/componentlib",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "type": "module",
   "private": false,
-  "main": "dist/index.umd.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
@@ -13,7 +13,7 @@
     }
   },
   "files": [
-    "/dist"
+    "./dist"
   ],
   "publishConfig": {
     "access": "public"
