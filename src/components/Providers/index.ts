@@ -1,4 +1,6 @@
 
-import * as _Theme from './Theme'
+import * as Theme from './Theme'
 
-export const Theme = _Theme
+export {
+  Theme
+}
