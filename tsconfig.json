@@ -21,8 +21,9 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "./src",
     "declaration": true,
+    "declarationMap": true,
     "typeRoots": [
-      "./dist/lib.d.ts"
+      "dist/index.d.ts"
     ]
   },
   "include": ["src"],

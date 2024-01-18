@@ -15,15 +15,24 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/lib.ts'),
-      name: 'lib',
+      entry: path.resolve(__dirname, 'src/index.ts'),
+      name: 'index',
       fileName: (args) => `index.${args}.js`
     },
     rollupOptions: {
+
       external: [
-        '**/*.stories.ts',
-        '**/*.mdx'
-      ]
+        // '**/*.stories.ts',
+        // '**/*.mdx',
+        'react',
+        'react-dom'
+      ],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM'
+        }
+      }
     },
     sourcemap: true,
     emptyOutDir: true
