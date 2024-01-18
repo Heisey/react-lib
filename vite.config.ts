@@ -8,4 +8,12 @@ export default defineConfig({
     react(),
     tsconfigPaths()
   ],
+  build: {
+    rollupOptions: {
+      external: [
+        '**/*.stories.ts',
+        '**/*.mdx'
+      ]
+    }
+  }
 })
