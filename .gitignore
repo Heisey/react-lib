@@ -23,4 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-src/stories
+/src/stories
