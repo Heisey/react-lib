@@ -1,7 +1,7 @@
 
-export * from './ButtonColorScheme'
+export type * from './ButtonColorScheme'
 
-export * from './ButtonThemes'
+export type * from './ButtonThemes'
 
-export * from './Theme'
+export type * from './Theme'
 

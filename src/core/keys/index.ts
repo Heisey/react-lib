@@ -1,2 +1,4 @@
 
-export * as buttonThemes from './ButtonThemes'
+import * as buttonThemes from './ButtonThemes'
+
+export { buttonThemes }

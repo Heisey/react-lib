@@ -1,7 +1,13 @@
 
 
-export * as config from './config'
+import * as _config from './config'
 
-export * as keys from './keys'
+import * as _keys from './keys'
 
-export * as I from './interfaces'
+import type * as I from './interfaces'
+
+export const config = _config
+
+export const keys = _keys
+
+export { I }

@@ -1,6 +1,10 @@
 
-export * as Buttons from './Buttons'
+import * as _Buttons from './Buttons'
 
-export * as Providers from './Providers'
+import * as _Providers from './Providers'
+
+export const Button = _Buttons
+
+export const Providers = _Providers
 
 

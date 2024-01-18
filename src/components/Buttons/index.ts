@@ -1,2 +1,4 @@
 
-export * as Button from './Button'
+import * as _Button from './Button'
+
+export const Button = _Button
