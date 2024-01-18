@@ -6,5 +6,6 @@ src/
 .eslintrc.cjs
 .gitignore
 vite.config.ts
-ts.config.json
+tsconfig.json
 tsconfig.node.json
+index.html

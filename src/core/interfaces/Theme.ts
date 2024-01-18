@@ -18,5 +18,8 @@ export interface Theme {
 
     radius: string
     boxShadow: string
+
+    paddingX: string
+    paddingY: string
   }
 }

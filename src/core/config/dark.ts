@@ -30,6 +30,8 @@ export const dark: Core_I.Theme = {
       bg: 'grey'
     },
     radius: '15px',
-    boxShadow: 'none'
+    boxShadow: 'none',
+    paddingX: '24px',
+    paddingY: '8px'
   }
 }
