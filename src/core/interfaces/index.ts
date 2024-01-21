@@ -1,7 +1,12 @@
 
-export type * from './ButtonColorScheme'
+import { ButtonColorScheme } from './ButtonColorScheme'
 
-export type * from './ButtonThemes'
+import { ButtonThemes } from './ButtonThemes'
 
-export type * from './Theme'
+import { Theme } from './Theme'
 
+export {
+  type ButtonColorScheme,
+  type ButtonThemes,
+  type Theme
+}
