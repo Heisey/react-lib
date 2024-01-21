@@ -25,7 +25,8 @@ export default defineConfig({
         // '**/*.stories.ts',
         // '**/*.mdx',
         'react',
-        'react-dom'
+        'react-dom',
+        'styled-components'
       ],
       output: {
         globals: {
