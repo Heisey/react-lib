@@ -6,7 +6,8 @@ export const dark: Core_I.Theme = {
   name: 'dark',
 
   app: {
-    maxWidth: '1920px'
+    maxWidth: '1920px',
+    backgroundColor: 'black'
   },
   button: {
     [Core_Keys.buttonThemes.PRIMARY]: {
