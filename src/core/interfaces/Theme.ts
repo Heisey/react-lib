@@ -7,6 +7,7 @@ export interface Theme {
 
   app: {
     maxWidth: string
+    backgroundColor: string
   }
 
   button: {
