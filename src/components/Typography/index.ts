@@ -1,4 +1,9 @@
 
-export * as Text from './Text'
+import * as Text from './Text'
 
-export * as Title from './Title'
+import * as Title from './Title'
+
+export {
+  Text,
+  Title
+}
