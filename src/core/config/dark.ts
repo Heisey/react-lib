@@ -34,5 +34,13 @@ export const dark: Core_I.Theme = {
     boxShadow: 'none',
     paddingX: '24px',
     paddingY: '8px'
+  },
+
+  typography: {
+    dark: 'black',
+    light: 'white',
+    info: 'lightgrey',
+    warning: 'yellow',
+    danger: 'red'
   }
 }

@@ -5,10 +5,10 @@ import * as Core from 'core'
 
 import * as Button from '.'
 
-type ButtonType = typeof Button.Component
+type ComponentType = typeof Button.Component
 
 const meta = {
-  title: 'Example/Button',
+  title: 'Buttons/Button',
   component: Button.Component,
   parameters: {
     layout: 'centered',
@@ -17,7 +17,7 @@ const meta = {
   argTypes: {
     // backgroundColor: { control: 'color' },
   },
-} satisfies SB.Meta<ButtonType>
+} satisfies SB.Meta<ComponentType>
 
 export default meta;
 

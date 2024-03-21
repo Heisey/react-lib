@@ -16,3 +16,5 @@ const Text: React.FC<I.Title> = (props) => {
 Text.defaultProps = {
   as: 'h1'
 }
+
+export const Component = Text

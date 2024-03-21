@@ -23,4 +23,12 @@ export interface Theme {
     paddingX: string
     paddingY: string
   }
+
+  typography: {
+    dark: string
+    light: string,
+    info: string,
+    warning: string,
+    danger: string
+  }
 }
