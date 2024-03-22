@@ -12,6 +12,7 @@ const Text: React.FC<I.Title> = (props) => {
     <Styles.Title 
       as={props.as}
       color={props.theme}
+      className={props.className}
     >
       {props.children}
     </Styles.Title>

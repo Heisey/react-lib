@@ -9,7 +9,11 @@ import * as Styles from './styles'
 const Button: React.FC<I.Button> = (props) => {
   
   return (
-    <Styles.Button {...props} buttontheme={props.buttontheme!}>
+    <Styles.Button 
+      {...props} 
+      buttontheme={props.buttontheme!}
+      className={props.className}
+    >
       {props.children}
     </Styles.Button>
   )
