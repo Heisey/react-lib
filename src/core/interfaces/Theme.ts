@@ -25,10 +25,10 @@ export interface Theme {
   }
 
   typography: {
-    dark: string
-    light: string,
-    info: string,
-    warning: string,
-    danger: string
+    [Core_Keys.typographyThemes.DANGER]: string
+    [Core_Keys.typographyThemes.DARK]: string,
+    [Core_Keys.typographyThemes.INFO]: string,
+    [Core_Keys.typographyThemes.LIGHT]: string,
+    [Core_Keys.typographyThemes.WARNING]: string
   }
 }

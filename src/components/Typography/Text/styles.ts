@@ -1,4 +1,12 @@
 
 import Styled from 'styled-components'
 
-export const Text = Styled.p``
+import * as Core from 'core'
+
+interface Props {
+  color: Core.I.TypographyThemes
+}
+
+export const Text = Styled.p<Props>`
+  color: ${props => props.theme.typography[props.color]}
+`

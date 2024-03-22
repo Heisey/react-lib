@@ -32,3 +32,25 @@ export const Span: Story = {
     children: 'Primary Title'
   }
 };
+
+
+export const Dark: Story = {
+  args: {
+    children: 'Dark',
+    theme: 'DARK'
+  }
+}
+
+export const Light: Story = {
+  args: {
+    children: 'Light',
+    theme: 'LIGHT'
+  }
+}
+
+export const Danger: Story = {
+  args: {
+    children: 'Danger',
+    theme: 'DANGER'
+  }
+}
