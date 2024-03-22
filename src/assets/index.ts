@@ -1,2 +1,6 @@
 
-export * as FA from './FA'
+import * as FA from './FA'
+
+export {
+  FA
+}
