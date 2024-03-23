@@ -2,13 +2,14 @@
 import * as React from 'react'
 
 import * as I from './props'
+import * as Styles from './styles'
 
 const Icon: React.FC<I.Icon> = (props) => {
 
   return (
-    <svg { ...props } height='auto' width={props.size}>
+    <Styles.Icon { ...props } height='auto' width={props.size}>
       {props.children}
-    </svg>
+    </Styles.Icon>
   )
 }
 

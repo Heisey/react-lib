@@ -36,6 +36,12 @@ export const dark: Core_I.Theme = {
     paddingY: '8px'
   },
 
+  modal: {
+    overlay: 'black',
+    background: 'white',
+    close: 'black'
+  },
+
   typography: {
     [Core_Keys.typographyThemes.DARK]: 'black',
     [Core_Keys.typographyThemes.LIGHT]: 'white',

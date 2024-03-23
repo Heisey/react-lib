@@ -24,6 +24,12 @@ export interface Theme {
     paddingY: string
   }
 
+  modal: {
+    overlay: string
+    background: string
+    close: string
+  }
+
   typography: {
     [Core_Keys.typographyThemes.DANGER]: string
     [Core_Keys.typographyThemes.DARK]: string,

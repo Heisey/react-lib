@@ -28,7 +28,7 @@ export const decorators = [
     defaultTheme: 'dark',
     Provider: Providers.Theme.Component,
   }),
-  withRouter
+  withRouter()
 ];
 
 // export default preview;
