@@ -1,6 +1,4 @@
 
-import * as FA from './FA'
+import * as _FA from './FA'
 
-export {
-  FA
-}
+export const FA = _FA
