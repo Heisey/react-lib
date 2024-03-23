@@ -1,8 +1,9 @@
 
-import * as _FA from './FA'
+import * as FA from './FA'
 
-const _junk = 'junk'
+const junk = 'junk'
 
-export const FA = _FA
-
-export const junk = _junk
+export {
+  FA,
+  junk
+}
