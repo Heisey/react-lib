@@ -5,14 +5,14 @@ export const Modal = Styled.div`
   position: absolute;
   height: 100vh;
   width: 100vw;
-  position: relative;
   
 
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: ${props => props.theme.modal.zIndex};
 
-  :after {
+  &:after {
     content: '';
     position: absolute;
     top: 0;
@@ -29,21 +29,24 @@ export const Modal = Styled.div`
     min-width: 200px;
     min-height: 200px;
     background-color: ${props => props.theme.modal.background};
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
 
     .close {
       position: absolute;
       right: 15px;
-      top: 5px;
+      top: 10px;
       fill: ${props => props.theme.modal.close};
       stroke: ${props => props.theme.modal.close};
+      cursor: pointer;
     }
 
     .content {
-      border: 1px solid black;
       padding: 1rem;
-      min-height: 150px;
-      min-width: 220px;
+      
     }
   }
 `

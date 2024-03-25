@@ -28,6 +28,7 @@ export interface Theme {
     overlay: string
     background: string
     close: string
+    zIndex: number
   }
 
   typography: {

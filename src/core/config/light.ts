@@ -38,7 +38,8 @@ export const light: Core_I.Theme = {
   modal: {
     overlay: 'black',
     background: 'white',
-    close: 'black'
+    close: 'black',
+    zIndex: 100
   },
 
   typography: {
