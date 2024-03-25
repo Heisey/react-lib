@@ -12,6 +12,7 @@ const Button: React.FC<I.Button> = (props) => {
     <Styles.Button 
       {...props} 
       buttontheme={props.buttontheme!}
+      variant={props.variant!}
       className={props.className}
     >
       {props.children}
