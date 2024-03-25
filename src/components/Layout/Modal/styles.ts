@@ -1,8 +1,8 @@
 
 import Styled from 'styled-components'
 
-export const Modal= Styled.div`
-  postion: absolute;
+export const Modal = Styled.div`
+  position: absolute;
   height: 100vh;
   width: 100vw;
   position: relative;
