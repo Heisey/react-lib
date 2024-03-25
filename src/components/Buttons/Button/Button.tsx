@@ -20,7 +20,8 @@ const Button: React.FC<I.Button> = (props) => {
 }
 
 Button.defaultProps = {
-  buttontheme: Core.keys.buttonThemes.INFO
+  buttontheme: Core.keys.buttonThemes.INFO,
+  variant: Core.keys.buttonVaraints.SOLID
 }
 
 export const Component = Button

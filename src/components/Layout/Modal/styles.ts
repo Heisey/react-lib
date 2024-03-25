@@ -19,7 +19,7 @@ export const Modal = Styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.4;
+    opacity: ${props => props.theme.modal.overlayOpacity};
     background-color: ${props => props.theme.modal.overlay};
     z-index: -1;
   }

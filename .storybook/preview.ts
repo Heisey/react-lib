@@ -1,7 +1,7 @@
 
 import type { Preview } from "@storybook/react"
 import { withThemeFromJSXProvider } from '@storybook/addon-themes'
-import { withRouter } from 'storybook-addon-react-router-v6';
+// import { withRouter } from 'storybook-addon-react-router-v6';
 
 import * as Providers from '../src/components/Providers'
 import * as Core from '../src/core'
@@ -28,7 +28,7 @@ export const decorators = [
     defaultTheme: 'dark',
     Provider: Providers.Theme.Component,
   }),
-  withRouter()
+  // withRouter()
 ];
 
 // export default preview;

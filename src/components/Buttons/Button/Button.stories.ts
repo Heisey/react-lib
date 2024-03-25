@@ -25,8 +25,25 @@ type Story = SB.StoryObj<typeof meta>
 
 export const Primary: Story = {
   args: {
-    children: "Primary Button",
-    buttontheme: Core.keys.buttonThemes.PRIMARY
+    children: "Primary",
+    buttontheme: Core.keys.buttonThemes.PRIMARY,
+    variant: Core.keys.buttonVaraints.SOLID
+  },
+};
+
+export const OutlinePrimary: Story = {
+  args: {
+    children: " Outline Primary",
+    buttontheme: Core.keys.buttonThemes.PRIMARY,
+    variant: Core.keys.buttonVaraints.OUTLINE
+  },
+};
+
+export const TextPrimary: Story = {
+  args: {
+    children: "Text Primary",
+    buttontheme: Core.keys.buttonThemes.PRIMARY,
+    variant: Core.keys.buttonVaraints.TEXT
   },
 };
 
@@ -43,3 +60,25 @@ export const Warning: Story = {
     buttontheme: Core.keys.buttonThemes.WARNING
   },
 };
+
+export const Danger: Story = {
+  args: {
+    children: "Warning Button",
+    buttontheme: Core.keys.buttonThemes.DANGER
+  },
+};
+
+export const OutlineDanger: Story = {
+  args: {
+    children: 'Outline Danger Button',
+    buttontheme: Core.keys.buttonThemes.DANGER,
+    variant: Core.keys.buttonVaraints.OUTLINE
+  }
+}
+export const TextDanger: Story = {
+  args: {
+    children: 'Text Danger Button',
+    buttontheme: Core.keys.buttonThemes.DANGER,
+    variant: Core.keys.buttonVaraints.TEXT
+  }
+}

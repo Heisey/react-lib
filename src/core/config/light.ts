@@ -39,7 +39,8 @@ export const light: Core_I.Theme = {
     overlay: 'black',
     background: 'white',
     close: 'black',
-    zIndex: 100
+    zIndex: 100,
+    overlayOpacity: 0.4
   },
 
   typography: {

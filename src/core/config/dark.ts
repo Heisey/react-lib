@@ -23,7 +23,7 @@ export const dark: Core_I.Theme = {
       bg: 'yellow'
     },
     [Core_Keys.buttonThemes.DANGER]: {
-      fg: 'black',
+      fg: 'white',
       bg: 'red'
     },
     [Core_Keys.buttonThemes.INFO]: {
@@ -40,7 +40,8 @@ export const dark: Core_I.Theme = {
     overlay: 'black',
     background: 'white',
     close: 'black',
-    zIndex: 100
+    zIndex: 100,
+    overlayOpacity: 0.4
   },
 
   typography: {
