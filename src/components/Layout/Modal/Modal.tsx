@@ -11,7 +11,7 @@ const Modal: React.FC<I.Modal> = (props) => {
   if (!props.open) return null
 
   return (
-    <Styles.Modal>
+    <Styles.Modal className={props.className}>
       <div className='body'>
         <FA.Close className='close' size='20px' onClick={props.onClose} />
 
