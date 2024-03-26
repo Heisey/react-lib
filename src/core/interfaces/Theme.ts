@@ -24,6 +24,11 @@ export interface Theme {
     paddingY: string
   }
 
+  inputs: {
+    valid: string
+    inValid: string
+  }
+
   modal: {
     overlay: string
     background: string

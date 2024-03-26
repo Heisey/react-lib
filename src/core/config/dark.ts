@@ -36,6 +36,11 @@ export const dark: Core_I.Theme = {
     paddingY: '8px'
   },
 
+  inputs: {
+    inValid: 'red',
+    valid: 'lime'
+  },
+
   modal: {
     overlay: 'black',
     background: 'white',

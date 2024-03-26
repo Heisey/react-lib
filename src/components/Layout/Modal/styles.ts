@@ -33,19 +33,19 @@ export const Modal = Styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
 
-    .close {
-      position: absolute;
-      right: 15px;
-      top: 10px;
-      fill: ${props => props.theme.modal.close};
-      stroke: ${props => props.theme.modal.close};
-      cursor: pointer;
-    }
+  .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    fill: ${props => props.theme.modal.close};
+    stroke: ${props => props.theme.modal.close};
+    cursor: pointer;
+  }
 
-    .content {
-      padding: 1rem;
-      
-    }
+  .content {
+    padding: 1rem;
+    
   }
 `

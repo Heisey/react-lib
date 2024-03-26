@@ -35,6 +35,10 @@ export const light: Core_I.Theme = {
     paddingX: '24px',
     paddingY: '8px'
   },
+  inputs: {
+    inValid: 'red',
+    valid: 'lime'
+  },
   modal: {
     overlay: 'black',
     background: 'white',
