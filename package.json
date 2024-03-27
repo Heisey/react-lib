@@ -1,6 +1,6 @@
 {
   "name": "@heisey/componentlib",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "type": "module",
   "private": false,
   "main": "./dist/index.umd.js",
