@@ -5,7 +5,7 @@ import * as Text from 'components/Typography/Text'
 import * as I from './props'
 import * as Styles from './styles'
 
-const Label: React.FC<I.Label> = (props) => {
+const Label: React.FC<I.LabelProps> = (props) => {
 
   return (
     <Styles.Label { ...props}>
