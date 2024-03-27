@@ -1,2 +1,6 @@
 
-export * as validation from './validation'
+import * as validation from './validation'
+
+export {
+  validation
+}
