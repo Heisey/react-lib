@@ -8,5 +8,5 @@ interface Props {
 }
 
 export const Text = Styled.p<Props>`
-  color: ${props => props.theme.typography[props.textColor]}
+  color: ${props => props.theme.typography[props.textColor]};
 `
