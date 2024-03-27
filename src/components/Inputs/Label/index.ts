@@ -1,6 +1,6 @@
 
 export * from './Label'
 
-export type { Label } from './props'
+export type { LabelProps } from './props'
 
 export { Label as className } from './styles'
