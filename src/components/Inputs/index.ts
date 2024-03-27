@@ -1,4 +1,9 @@
 
-export * as Label from './Label'
+import * as Label from './Label'
 
-export * as Text from './Text'
+import * as Text from './Text'
+
+export {
+  Label,
+  Text
+}
