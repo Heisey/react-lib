@@ -9,7 +9,7 @@ const Label: React.FC<I.Label> = (props) => {
 
   return (
     <Styles.Label { ...props}>
-      <Text.Component>{props.field}{props.required && <span>&#42;</span>}</Text.Component>;
+      <Text.Component>{props.field}{props.required && <span>&#42;</span>}</Text.Component>:
       {props.input}
     </Styles.Label>
   )
