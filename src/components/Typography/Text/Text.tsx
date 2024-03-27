@@ -11,8 +11,9 @@ const Text: React.FC<I.Text> = (props) => {
   return  (
     <Styles.Text 
       as={props.as}
-      {...props}
       textColor={props.theme!}
+      className={props.className}
+      onClick={props.onClick}
     >
       {props.children}
     </Styles.Text>
