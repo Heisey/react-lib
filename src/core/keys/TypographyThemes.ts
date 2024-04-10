@@ -8,3 +8,5 @@ export const WARNING = 'WARNING'
 export const DANGER = 'DANGER'
 
 export const INFO = 'INFO'
+
+export const DEFAULT = 'inherit'

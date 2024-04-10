@@ -53,6 +53,7 @@ export const light: Core_I.Theme = {
     [Core_Keys.typographyThemes.LIGHT]: 'white',
     [Core_Keys.typographyThemes.INFO]: 'lightgrey',
     [Core_Keys.typographyThemes.WARNING]: 'yellow',
-    [Core_Keys.typographyThemes.DANGER]: 'red'
+    [Core_Keys.typographyThemes.DANGER]: 'red',
+    [Core_Keys.typographyThemes.DEFAULT]: 'inherit'
   }
 }

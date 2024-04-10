@@ -1,7 +1,7 @@
 
 import * as SB from '@storybook/react'
 
-// import * as Text from 'components/Inputs/Text'
+import * as Text from 'components/Inputs/Text'
 
 import * as Label from '.'
 
@@ -26,6 +26,6 @@ type Story = SB.StoryObj<typeof meta>
 export const Primary: Story = {
   args: {
     required: true,
-    input: 'input'
+    input: Text.Component.call({}, {})
   },
 };

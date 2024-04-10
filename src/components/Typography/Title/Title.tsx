@@ -21,7 +21,7 @@ const Text: React.FC<I.Title> = (props) => {
 
 Text.defaultProps = {
   as: 'h1',
-  theme: Core.keys.typographyThemes.DARK
+  theme: Core.keys.typographyThemes.DEFAULT
 }
 
 export const Component = Text

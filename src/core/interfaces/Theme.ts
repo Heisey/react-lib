@@ -44,5 +44,6 @@ export interface Theme {
     [Core_Keys.typographyThemes.INFO]: string,
     [Core_Keys.typographyThemes.LIGHT]: string,
     [Core_Keys.typographyThemes.WARNING]: string
+    [Core_Keys.typographyThemes.DEFAULT]: string
   }
 }
