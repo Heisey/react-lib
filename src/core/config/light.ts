@@ -36,6 +36,7 @@ export const light: Core_I.Theme = {
     paddingY: '8px'
   },
   inputs: {
+    color: 'black',
     inValid: 'red',
     valid: 'lime'
   },

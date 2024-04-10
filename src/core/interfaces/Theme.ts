@@ -25,6 +25,7 @@ export interface Theme {
   }
 
   inputs: {
+    color: string
     valid: string
     inValid: string
   }

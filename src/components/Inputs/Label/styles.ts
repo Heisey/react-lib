@@ -6,4 +6,8 @@ export const Label = Styled.label`
   justify-content: space-between;
   align-items: center;
   width: 100%;
+
+  & > :first-child {
+    color: ${props => props.color};
+  }
 `

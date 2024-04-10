@@ -37,6 +37,7 @@ export const dark: Core_I.Theme = {
   },
 
   inputs: {
+    color: 'white',
     inValid: 'red',
     valid: 'lime'
   },
